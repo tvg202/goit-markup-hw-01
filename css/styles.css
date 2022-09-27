@@ -1,0 +1,87 @@
+body {
+  font-family: Roboto, sans-serif;
+  --hover-color: #2196f3;
+}
+
+button {
+  color: #ffffff;
+  background: #2196f3;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+button:hover,
+button:active,
+button:focus {
+  background: #188ce8;
+}
+
+.section-title {
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+li {
+  list-style: none;
+}
+
+.features-list h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-list p {
+  color: #757575;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.filter > button {
+  color: #212121;
+  background: #f5f4fa;
+  /* font-family: 'Roboto'; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+nav a {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--hover-color);
+}
+
+.comm a {
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
