@@ -1,0 +1,20 @@
+
+/* Remove disc for lists items*/
+.contact-item,
+.nav-item,
+.features-list,
+.work-list,
+.team-list,
+.address-item,
+.filter-item,
+.filter-list {
+  list-style: none;
+}
+
+/* Remove links underline */
+.address-item a,
+.contact-item a,
+.nav-item a,
+.filter-list a {
+  text-decoration: none;
+}
