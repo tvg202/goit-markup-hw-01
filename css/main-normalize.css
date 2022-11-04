@@ -1,13 +1,18 @@
-
 /* Remove disc for lists items*/
-.contact-item,
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .nav-item,
 .features-list,
 .work-list,
 .team-list,
 .address-item,
 .filter-item,
-.filter-list {
+.card-list,
+.address-list,
+.contact-list {
   list-style: none;
 }
 
@@ -15,6 +20,7 @@
 .address-item a,
 .contact-item a,
 .nav-item a,
-.filter-list a {
+.card-list a,
+.logo {
   text-decoration: none;
 }
