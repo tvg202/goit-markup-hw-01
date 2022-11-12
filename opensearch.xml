@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Multitran Search</ShortName>
+  <Description>Multitran Dictionary Search</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="64" height="64" type="image/png">https://www.multitran.com/favicon-64.png</Image>
+  <Image width="32" height="32" type="image/png">https://www.multitran.com/favicon-32.png</Image>
+  <Image width="16" height="16" type="image/png">https://www.multitran.com/favicon-16.png</Image>
+  <Tags>Multitran Dictionary Search</Tags>
+  <Url type="text/html" method="get" template="https://www.multitran.com/?s={searchTerms}"/>
+  <moz:SearchForm>https://www.multitran.com</moz:SearchForm>
+</OpenSearchDescription>
